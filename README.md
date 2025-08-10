@@ -6,7 +6,7 @@ PDMaas README.md
 
 **全功能数据建模工具，简洁强大，全库适配，国产优选**
 
-# 1. 项目介绍 | Intro
+## 1. 项目介绍 | Intro
 
 PDMaas是一款优秀的国产数据建模工具，所有操作系统都能用，主打轻便好看效率高。它能帮你：
 
@@ -21,7 +21,7 @@ PDMaas是一款优秀的国产数据建模工具，所有操作系统都能用�
 - **核心定位**：社区开源版（CE）面向开发者，支持全流程数据模型设计与管理。   
 - **适用场景**：开发者、技术爱好者
 
-### 发展历史  
+### 1.1 发展历史  
 
 2018年初，团队针对传统建模工具局限，仅用一个半月完成PDMan 1.0开发，实现产品从无到有突破；同年5月发布首个开源版本，开启开源探索之路，持续更新至2019年1月。因前期设计存在局限，升级难度增大，2019年底团队启动系统性规划设计。
 
@@ -46,26 +46,27 @@ PDMaas是一款优秀的国产数据建模工具，所有操作系统都能用�
 - [PDMaas成长故事：让元数据模型构筑未来数据的基石](https://mp.weixin.qq.com/s/6zzc6sZ56qdf5HWDlnCUJQ)
 
 
-### 相关资源  
+### 1.2 相关资源  
 - 官方网站： [www.yonsum.com](https://www.yonsum.com/)
 - [官方文档](https://www.yonsum.com/DocumentCenter)
 - [社区问答](https://wenda.pdmaas.cn/)
 
 
-## 快速上手 | Get Started  
-### 环境依赖  
-- 详细列出各系统（Windows/macOS/Linux）的最低配置（内存、硬盘、依赖组件如JDK版本等）。  
-- 常见依赖问题排查指引（附链接）。  
+## 2. 快速上手 | Get Started  
+### 2.1 环境依赖
+- 软件：node v16.19.0+ ; npm v8.19.3+
+- 常见依赖问题：https://zhuanlan.zhihu.com/p/248742896
 
-### 源码编译步骤  
-- 分步指令：克隆代码、安装依赖、编译命令。  
-- 编译成功验证方式（如生成的安装包路径）。  
-
-### 本地启动教程  
-- 启动命令及参数说明。  
-- 首次启动配置（如初始化账号、端口设置）。  
-- 启动成功验证（访问地址、界面截图指引）。  
-
+### 2.2 源码编译步骤
+1. 克隆代码到本地： ```clone: git clone https://gitee.com/yonsum/PDMaas.git```
+2. 安装依赖：```npm i --force```
+3. 编译打包(根据自己平台选择）：
+    - 一键打包所有操作系统版本：```npm run package-all```
+    - 打包 mac: ```npm run package-mac```
+    - 打包 linux: ```npm run package-linux```
+    - 打包windows: ```npm run package-win```
+4. 编译成功后：会在项目的根目录下的dist目录生成对应的安装包
+5. 本地启动：```npm run start```
 
 ## 版本对比 | Editions Comparison  
 
