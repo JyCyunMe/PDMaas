@@ -47,9 +47,9 @@ PDMaas是一款优秀的国产数据建模工具，所有操作系统都能用�
 
 
 ### 相关资源  
-- 官方文档入口（快速上手指南、功能手册）。  
-- 技术博客链接（含深度解析、最佳实践）。  
-- 社区问答入口（GitHub Issues、Gitee讨论区）。  
+- 官方网站： [www.yonsum.com](https://www.yonsum.com/)
+- [官方文档](https://www.yonsum.com/DocumentCenter)
+- [社区问答](https://wenda.pdmaas.cn/)
 
 
 ## 快速上手 | Get Started  
