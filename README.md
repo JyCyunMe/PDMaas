@@ -1,4 +1,4 @@
-![](public/icons/pdmaas-logo-256*256.png)
+![](public/icons/pdmaas-logo-256x256.png)
 
 **全功能数据建模工具，简洁强大，全库适配，国产优选**
 
